@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>E-commerce</title>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <h1>mi e commerce</h1>
       <div class="buscar">
-        <input type="text" placeholder="Buscar">
+        <input
+        name="texto"
+        class="buscador" 
+        id="texto" 
+        cols="30" 
+        rows="10" 
+        placeholder="Buscar"
+        ></input>
         <button class="buscador" type="button" onclick="">Buscar</button>
       </div>
       <div class="button">
-        <button onclick="location.href='index.html/login'">login</button>
+        <button class="btn-login" onclick="location.href='index.html/login'">login</button>
       </div>
     </div>
     <div class="productos">

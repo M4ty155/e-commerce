@@ -1,15 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     position: relative;
-    width: 100vw;
+    width: 1353px;
     height: 100vh;
     background: #f3f5fc;
 }
 
-.buscador {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.header {
+    position: relative;
+    width: 1100px;
+    height: 60px;
+}
+
+.buscador{
+    position: relative;
+    right: 50%;
+    left: 50%;
+    margin-top: 2%;
+}
+
+#texto {
+    width: 200px;
+}
+
+.btn-login {
     position: absolute;
-    width: 30%;
-    left: 52%;
+    right: 20px;
+    top: 37%;
+    width: 100px;
+    height: 25px;
 }
