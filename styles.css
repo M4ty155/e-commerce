@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #f3f5fc;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 30%;
+    left: 52%;
+}
